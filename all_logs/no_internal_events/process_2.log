@@ -1,0 +1,266 @@
+2, 0.25
+2023-03-08 01:52:56/1/Sent to machine_1
+2023-03-08 01:52:56/2/RecFrom:process_1/QueueSize:2
+2023-03-08 01:52:57/3/RecFrom:process_3/QueueSize:1
+2023-03-08 01:52:57/4/RecFrom:process_3/QueueSize:1
+2023-03-08 01:52:57/5/RecFrom:process_3/QueueSize:1
+2023-03-08 01:52:57/6/RecFrom:process_3/QueueSize:1
+2023-03-08 01:52:58/7/Sent to machine_1
+2023-03-08 01:52:58/8/Sent to machine_2
+2023-03-08 01:52:58/9/Broadcast to all machines
+2023-03-08 01:52:58/10/Broadcast to all machines
+2023-03-08 01:52:59/11/Sent to machine_2
+2023-03-08 01:52:59/12/Sent to machine_2
+2023-03-08 01:52:59/13/Sent to machine_2
+2023-03-08 01:52:59/14/Sent to machine_1
+2023-03-08 01:53:00/16/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:00/17/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:00/18/Sent to machine_1
+2023-03-08 01:53:00/19/Sent to machine_2
+2023-03-08 01:53:01/20/Sent to machine_1
+2023-03-08 01:53:01/21/Broadcast to all machines
+2023-03-08 01:53:01/22/Sent to machine_1
+2023-03-08 01:53:01/23/Broadcast to all machines
+2023-03-08 01:53:02/24/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:02/25/Sent to machine_2
+2023-03-08 01:53:02/26/Broadcast to all machines
+2023-03-08 01:53:02/27/Sent to machine_1
+2023-03-08 01:53:03/28/Sent to machine_2
+2023-03-08 01:53:03/29/Broadcast to all machines
+2023-03-08 01:53:03/30/Sent to machine_2
+2023-03-08 01:53:03/31/Broadcast to all machines
+2023-03-08 01:53:04/32/Sent to machine_1
+2023-03-08 01:53:04/33/Broadcast to all machines
+2023-03-08 01:53:04/34/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:04/35/Sent to machine_2
+2023-03-08 01:53:05/36/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:05/37/Sent to machine_2
+2023-03-08 01:53:05/38/Broadcast to all machines
+2023-03-08 01:53:05/39/Sent to machine_1
+2023-03-08 01:53:06/40/Broadcast to all machines
+2023-03-08 01:53:06/41/Sent to machine_1
+2023-03-08 01:53:06/43/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:06/44/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:07/45/Broadcast to all machines
+2023-03-08 01:53:07/46/Sent to machine_2
+2023-03-08 01:53:07/47/Broadcast to all machines
+2023-03-08 01:53:07/48/Sent to machine_2
+2023-03-08 01:53:08/49/Sent to machine_1
+2023-03-08 01:53:08/50/Sent to machine_2
+2023-03-08 01:53:08/51/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:08/52/Sent to machine_1
+2023-03-08 01:53:09/53/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:09/54/Sent to machine_1
+2023-03-08 01:53:09/55/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:10/56/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:10/57/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:10/58/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:10/59/Broadcast to all machines
+2023-03-08 01:53:11/60/Broadcast to all machines
+2023-03-08 01:53:11/61/Broadcast to all machines
+2023-03-08 01:53:11/62/Sent to machine_2
+2023-03-08 01:53:11/63/Broadcast to all machines
+2023-03-08 01:53:12/64/Sent to machine_1
+2023-03-08 01:53:12/65/Broadcast to all machines
+2023-03-08 01:53:12/67/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:12/69/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:13/70/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:13/71/Sent to machine_2
+2023-03-08 01:53:13/72/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:13/73/Broadcast to all machines
+2023-03-08 01:53:14/74/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:14/75/Sent to machine_2
+2023-03-08 01:53:14/76/Sent to machine_1
+2023-03-08 01:53:14/77/Sent to machine_1
+2023-03-08 01:53:15/78/Sent to machine_1
+2023-03-08 01:53:15/79/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:15/80/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:15/81/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:16/82/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:16/83/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:16/84/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:16/85/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:17/86/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:17/87/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:17/88/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:17/89/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:18/90/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:18/91/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:18/92/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:18/93/Sent to machine_1
+2023-03-08 01:53:19/94/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:19/95/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:19/96/Sent to machine_2
+2023-03-08 01:53:19/97/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:20/98/Broadcast to all machines
+2023-03-08 01:53:20/99/Sent to machine_2
+2023-03-08 01:53:20/100/Broadcast to all machines
+2023-03-08 01:53:20/101/Sent to machine_2
+2023-03-08 01:53:21/102/Sent to machine_2
+2023-03-08 01:53:21/103/Sent to machine_2
+2023-03-08 01:53:21/104/Sent to machine_1
+2023-03-08 01:53:21/105/Sent to machine_1
+2023-03-08 01:53:22/106/Broadcast to all machines
+2023-03-08 01:53:22/107/Sent to machine_2
+2023-03-08 01:53:22/108/Sent to machine_2
+2023-03-08 01:53:22/109/Broadcast to all machines
+2023-03-08 01:53:23/110/Sent to machine_2
+2023-03-08 01:53:23/111/Sent to machine_1
+2023-03-08 01:53:23/113/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:23/114/Sent to machine_1
+2023-03-08 01:53:24/115/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:24/116/Sent to machine_1
+2023-03-08 01:53:24/117/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:24/118/Sent to machine_1
+2023-03-08 01:53:25/119/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:25/120/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:25/121/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:25/122/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:26/123/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:26/124/Sent to machine_1
+2023-03-08 01:53:26/125/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:26/126/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:27/127/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:27/128/Sent to machine_2
+2023-03-08 01:53:27/129/Broadcast to all machines
+2023-03-08 01:53:27/130/Sent to machine_1
+2023-03-08 01:53:28/132/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:28/133/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:28/134/Sent to machine_1
+2023-03-08 01:53:28/135/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:29/136/Sent to machine_2
+2023-03-08 01:53:29/137/Broadcast to all machines
+2023-03-08 01:53:29/138/Broadcast to all machines
+2023-03-08 01:53:30/139/Broadcast to all machines
+2023-03-08 01:53:30/140/Broadcast to all machines
+2023-03-08 01:53:30/141/Sent to machine_1
+2023-03-08 01:53:30/143/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:31/144/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:31/145/Sent to machine_2
+2023-03-08 01:53:31/146/Sent to machine_1
+2023-03-08 01:53:31/148/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:32/149/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:32/150/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:32/151/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:32/152/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:33/153/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:33/154/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:33/155/Sent to machine_2
+2023-03-08 01:53:33/156/Broadcast to all machines
+2023-03-08 01:53:34/157/Broadcast to all machines
+2023-03-08 01:53:34/158/Sent to machine_1
+2023-03-08 01:53:34/159/Sent to machine_1
+2023-03-08 01:53:34/161/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:35/162/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:35/163/Sent to machine_2
+2023-03-08 01:53:35/164/Sent to machine_2
+2023-03-08 01:53:35/165/Broadcast to all machines
+2023-03-08 01:53:36/166/Sent to machine_1
+2023-03-08 01:53:36/167/Sent to machine_1
+2023-03-08 01:53:36/169/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:36/170/Sent to machine_2
+2023-03-08 01:53:37/171/Broadcast to all machines
+2023-03-08 01:53:37/172/Sent to machine_1
+2023-03-08 01:53:37/174/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:37/175/Sent to machine_2
+2023-03-08 01:53:38/176/Broadcast to all machines
+2023-03-08 01:53:38/177/Broadcast to all machines
+2023-03-08 01:53:38/178/Sent to machine_2
+2023-03-08 01:53:38/179/Sent to machine_1
+2023-03-08 01:53:39/181/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:39/182/Sent to machine_2
+2023-03-08 01:53:39/183/Sent to machine_2
+2023-03-08 01:53:39/184/Sent to machine_1
+2023-03-08 01:53:40/185/Broadcast to all machines
+2023-03-08 01:53:40/186/Broadcast to all machines
+2023-03-08 01:53:40/187/Sent to machine_2
+2023-03-08 01:53:40/188/Broadcast to all machines
+2023-03-08 01:53:41/189/Sent to machine_1
+2023-03-08 01:53:41/190/Broadcast to all machines
+2023-03-08 01:53:41/191/Sent to machine_2
+2023-03-08 01:53:41/192/Broadcast to all machines
+2023-03-08 01:53:42/193/Sent to machine_1
+2023-03-08 01:53:42/195/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:42/196/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:42/197/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:43/198/Broadcast to all machines
+2023-03-08 01:53:43/199/Sent to machine_1
+2023-03-08 01:53:43/200/Sent to machine_1
+2023-03-08 01:53:43/201/Sent to machine_2
+2023-03-08 01:53:44/202/Broadcast to all machines
+2023-03-08 01:53:44/203/Broadcast to all machines
+2023-03-08 01:53:44/204/Broadcast to all machines
+2023-03-08 01:53:44/205/Broadcast to all machines
+2023-03-08 01:53:45/206/Sent to machine_2
+2023-03-08 01:53:45/207/Broadcast to all machines
+2023-03-08 01:53:45/208/Sent to machine_1
+2023-03-08 01:53:45/209/Sent to machine_2
+2023-03-08 01:53:46/210/Sent to machine_1
+2023-03-08 01:53:46/211/Broadcast to all machines
+2023-03-08 01:53:46/212/Sent to machine_1
+2023-03-08 01:53:46/213/Sent to machine_1
+2023-03-08 01:53:47/215/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:47/216/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:47/217/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:47/218/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:48/219/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:48/220/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:48/221/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:48/222/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:49/223/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:49/224/Sent to machine_2
+2023-03-08 01:53:49/225/Sent to machine_1
+2023-03-08 01:53:50/227/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:50/228/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:50/229/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:50/230/Sent to machine_1
+2023-03-08 01:53:51/231/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:51/232/Sent to machine_2
+2023-03-08 01:53:51/233/Broadcast to all machines
+2023-03-08 01:53:51/234/Sent to machine_1
+2023-03-08 01:53:52/235/Broadcast to all machines
+2023-03-08 01:53:52/236/Sent to machine_1
+2023-03-08 01:53:52/238/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:52/239/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:53/240/Sent to machine_2
+2023-03-08 01:53:53/241/Broadcast to all machines
+2023-03-08 01:53:53/242/Sent to machine_2
+2023-03-08 01:53:53/243/Sent to machine_2
+2023-03-08 01:53:54/244/Sent to machine_1
+2023-03-08 01:53:54/246/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:54/247/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:54/248/Sent to machine_2
+2023-03-08 01:53:55/249/Sent to machine_1
+2023-03-08 01:53:55/251/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:55/252/Sent to machine_2
+2023-03-08 01:53:55/253/Sent to machine_1
+2023-03-08 01:53:56/255/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:56/256/Sent to machine_2
+2023-03-08 01:53:56/257/Sent to machine_1
+2023-03-08 01:53:56/259/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:57/260/Broadcast to all machines
+2023-03-08 01:53:57/261/Sent to machine_2
+2023-03-08 01:53:57/262/Broadcast to all machines
+2023-03-08 01:53:57/263/Sent to machine_2
+2023-03-08 01:53:58/264/Broadcast to all machines
+2023-03-08 01:53:58/265/Sent to machine_2
+2023-03-08 01:53:58/266/Broadcast to all machines
+2023-03-08 01:53:58/267/Sent to machine_2
+2023-03-08 01:53:59/268/Sent to machine_2
+2023-03-08 01:53:59/269/Sent to machine_1
+2023-03-08 01:53:59/271/RecFrom:process_3/QueueSize:1
+2023-03-08 01:53:59/272/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:00/273/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:00/274/Sent to machine_1
+2023-03-08 01:54:00/275/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:00/276/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:01/277/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:01/278/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:01/279/Broadcast to all machines
+2023-03-08 01:54:01/280/Sent to machine_2
+2023-03-08 01:54:02/281/Sent to machine_1
+2023-03-08 01:54:02/283/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:02/284/RecFrom:process_3/QueueSize:1
+2023-03-08 01:54:02/285/Broadcast to all machines
+2023-03-08 01:54:03/286/Sent to machine_1
+2023-03-08 01:54:03/288/RecFrom:process_3/QueueSize:1
