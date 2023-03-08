@@ -1,14 +1,14 @@
 Instructions: 
 
 1.	Open three separate terminals, and type the following lines in each one: 
-a.	Python3 run.py 0
-b.	Python3 run.py 1
-c.	Python3 run.py 2
+  a.	Python3 run.py 0
+  b.	Python3 run.py 1
+  c.	Python3 run.py 2
 2.	When prompted, click enter to run the files 
 3.	Open the log files folder to see the results (can be run as long as needed)
-a.	[id] refers to the machine id number
-b.	[speed] refers to number of operations able to be executed in a minute
-c.	[logical clock time] – [system time] refers to the parameters specified in the investigation 
+  a.	[id] refers to the machine id number
+  b.	[speed] refers to number of operations able to be executed in a minute
+  c.	[logical clock time] – [system time] refers to the parameters specified in the investigation 
 4.	Shut down the program when finished
 
 Documentation: 
@@ -20,6 +20,8 @@ Our code will also start off with checking if there is a message in the queue. I
 Finally, we will run the scale model at least five teams for at least one minute each and look at the different size of jumps in the logical clocks compared to the system time and how this is impacted by the different timings (by looking at message queues and logical clock gaps). The experimentation outline is mentioned below as well as the findings we have identified.  
 
 Experimentation Scope:
+
+Experiment 1 has 
 
 Design Choices:
 
