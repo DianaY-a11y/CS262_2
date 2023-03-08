@@ -27,7 +27,11 @@ Finally, we will run the scale model at least five teams for at least one minute
 
 ## Experimentation Scope:
 
-Experiment 1 has 
+Experiment 1 has the default setting on randomizations for the clock ranging from 1 to 6 and for the machine ranging from 1-10. 
+
+Experiment 2 has the default setting for the machine randomization but we reassigned a different constant on the clock randomization to narrow down the variation in the clock cycles. 
+
+Experiment 3 has the default setting for the clock randomization but we removed the situation in which an internal event would occur. 
 
 ## Design Choices:
 
