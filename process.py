@@ -64,13 +64,14 @@ class Machine:
             try:
                 conn, addr = self.receive_socket.accept()
                 response = conn.recv(1024)
-                self.queue.append(response)
+                self.queue.append(response.decode())
             except:
                 pass
     
     def set_socket(self) -> None:
 
         self.receive_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        # self.receive_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.receive_socket.bind((self.host, self.port))
         self.receive_socket.listen(5)
 
@@ -81,19 +82,21 @@ class Machine:
     def connect_machines(self, connections: list = []) -> None:
         self.connections += connections
 
-    def send_message(self, msg: str = "", receiver: int = None) -> None:
+    def send_message(self, msg: str = "", address: tuple = ()) -> None:
         
         self.send_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.send_socket.connect(self.connections[receiver])
+        # self.send_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        self.send_socket.connect(address)
 
         self.send_socket.send(msg.encode())
         self.send_socket.close()
 
     def log_message(self, msg: str) -> None:
 
-        current_time = time.time()
+        if self.logging.closed:
+            return
 
-        # format the current time as a string
+        current_time = time.time()
         formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
 
         complete_message = f"{formatted_time}/{self.local_clock}/{msg}"
@@ -112,16 +115,16 @@ class Machine:
         self_log = ""
         if event == EVENTS["MACHINE_ONE"]:
             self_log = f"Sent to machine_{event}"
-            self.send_message(msg=msg, receiver=event - 1)
+            self.send_message(msg=msg, address=self.connections[event-1])
 
         elif event == EVENTS["MACHINE_TWO"]:
             self_log = f"Sent to machine_{event}"
-            self.send_message(msg=msg, receiver=event - 1)
+            self.send_message(msg=msg, address=self.connections[event-1])
 
         elif event == EVENTS["BROADCAST"]:
             self_log = f"Broadcast to all machines"
             for i in range(len(self.connections)):
-                self.send_message(msg=msg, receiver=i)
+                self.send_message(msg=msg, address=self.connections[i])
 
         else:
             self_log = "Internal event"
