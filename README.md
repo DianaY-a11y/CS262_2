@@ -5,6 +5,7 @@
 1.	Open ONE terminal only
 2.	Run python3 run.py
 3.	This creates three virtual machines in the file itself and doesn't need user based parameters to get access
+4. `pip install -r requirements.txt`
 
 Interpreting logs is as shown below
 
@@ -12,7 +13,7 @@ Interpreting logs is as shown below
 - **[speed] refers to number of operations able to be executed in a minute**
 - **[logical clock time] – [system time] refers to the parameters specified in the investigation**
 
-4.	Shut down the program when finished
+5.	Shut down the program when finished
 
 ## Documentation: 
 
