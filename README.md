@@ -33,7 +33,11 @@ Experiment 3 has the default setting for the clock randomization but we removed 
 
 ## Design Choices:
 
-We have set the code up in a way where a given user can provide certain inputs that runs on different experiments (see the initialization side for what the parameters look like). We have utilized the creation of two sockets, one for receiving messages in one thread and the other for just sending.  By setting up this wire protocol and through a multi-threaded system, this ensures that there is no limbo zone where all the machines are waiting for a onnection without even starting the connection in the first place. Each new connection will also be started in a new thread and receive mssages there for the same reason. 
+We have set the code up in a way where a given user can provide certain inputs that runs on different experiments (see the initialization side for what the parameters look like). The  constants in the def __init__ function can also be substituted to try different experimentations such as on timing and clock rate. The run file also has constants that can be substituted for the number of machines, etc.  
+
+We have utilized the creation of two sockets, one for receiving messages in one thread and the other for just sending.  By setting up this wire protocol and through a multi-threaded system, this ensures that there is no limbo zone where all the machines are waiting for a onnection without even starting the connection in the first place. Each new connection will also be started in a new thread and receive mssages there for the same reason. 
+
+
 
 
 
