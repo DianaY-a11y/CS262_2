@@ -23,7 +23,7 @@ class MachineTest(unittest.TestCase):
 
     def receive_messages(self) -> None:
         """
-        A function that receives messages on a socket and appends them to a queue concurrently until receive_has_ended is True.
+        This function receives messages on a socket and appends them to a queue concurrently until receive_has_ended is True.
         
         """
 
@@ -37,7 +37,7 @@ class MachineTest(unittest.TestCase):
 
     def setUp(self) -> None:
         """
-        A function that sets up the environment, i.e. required variables and objects for the test. 
+        This function sets up the environment, i.e. required variables and objects for the test. 
         It creates instances of Machine class, sets up a socket to receive messages, and starts a thread for receiving messages concurrently.
         """
        
@@ -63,7 +63,7 @@ class MachineTest(unittest.TestCase):
 
     def tearDown(self) -> None:
         """
-        A function that cleans up after the tests have been run.
+        This function cleans up after the tests have been run.
 
         It deletes the log files created during the tests, stops the thread that receives messages, and shuts
         down the instances of the Machine class.
@@ -85,8 +85,6 @@ class MachineTest(unittest.TestCase):
 
     def test_connect_machines(self) -> None:
         """
-        A test function that checks if the machines can connect to each other.
-
         This function checks if the machines can establish a connection to each other by calling the connect_machines()
         method of the Machine class and checking if the connections are established.
         """
@@ -99,8 +97,6 @@ class MachineTest(unittest.TestCase):
     def test_log_message(self) -> None:
         
         """
-        This function that checks if the log messages are written to the log file.
-
         It checks if the messages logged by the machine are written to the log file by calling the
         log_message() method of the Machine class and reading the contents of the log file
         
@@ -117,8 +113,8 @@ class MachineTest(unittest.TestCase):
     def test_receive_messages(self) -> None:
         
         """
-        Test the receive_messages method of a machine object.
-        Sends a message to the machine_one object and verifies that the message is received 
+        This function tests the receive_messages method of a machine object.
+        It sends a message to the machine_one object and verifies that the message is received 
         and added to the machine_one queue correctly.
         """
         
@@ -137,7 +133,7 @@ class MachineTest(unittest.TestCase):
     def test_send_messages(self) -> None:
         
         """
-        Tests the send_message method of the Machine class by sending a message to a connected machine and 
+        This function tests the send_message method of the Machine class by sending a message to a connected machine and 
         checking if the message is sent correctly and added to the target machine's message queue.
 
          """
