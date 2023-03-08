@@ -2,12 +2,15 @@ from process import *
 import threading
 import signal
 
+# SET number of VMs to be generated
 NUM_MACHINES = 3
 
+# Init addresses, and storage for machines/processes running
 addresses = [("127.0.0.1", port) for port in range(8000, 8000 + NUM_MACHINES)]
 machines = []
 running_processes = []
 
+# Define a signal interrupt for Ctrl C
 def signal_handler(sig, frame):
     for machine in machines:
         machine.shutdown()
@@ -19,7 +22,7 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
-    print(len(addresses))
+    
     for id in range(len(addresses)):
         vm = Machine(id=id+1, host=addresses[id][0], port=addresses[id][1])
         vm.connect_machines(addresses[:id] + addresses[id+1:])

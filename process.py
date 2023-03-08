@@ -23,6 +23,11 @@ class Machine:
                 log_file: str = None,
                 ) -> None:
         
+        """
+        Constructor for generating a Machine Object. Default parameters are a process id,
+        host, port, clock_rate, clock_range_size, and log_file
+        """
+        
         self.pid = id
         self.host = host
         self.port = port
@@ -39,6 +44,11 @@ class Machine:
         self.set_socket()
 
     def set_clock(self) -> None:
+        """
+        Initializes a clock rate and logical clock for the Machine
+        """
+
+        # Set clock tick to be reciprocal of clock_rate
         if not self.clock_rate:
             self.clock_rate = 1 / random.randint(1, self.clock_range_size)
 
@@ -47,6 +57,9 @@ class Machine:
         self.local_clock = 0
 
     def set_log_file(self) -> None:
+        """
+        Initializes a log_file if not provided and createa an I/O Wrapper for the log_file
+        """
         self.logger_open = True
         if not self.log_file:
             self.log_file = f"./logs/process_{self.pid}.log"
@@ -59,7 +72,9 @@ class Machine:
         self.logging = open(self.log_file, 'a+')
 
     def receive_messages(self) -> None:
-
+        """
+        Receive Messages from other Machines on a socket
+        """
         while not self.receive_has_ended:
             try:
                 conn, addr = self.receive_socket.accept()
@@ -69,13 +84,17 @@ class Machine:
                 pass
     
     def set_socket(self) -> None:
-
+        """
+        Initializes a receive socket, and runs the receive_messages function in 
+        its own thread so that events can still be generated in the main thread.
+        """
         self.receive_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # self.receive_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.receive_socket.bind((self.host, self.port))
         self.receive_socket.listen(5)
 
         self.queue: list = []
+        # Spinup receive in its own thread
         self.main_receive_thread = threading.Thread(target=self.receive_messages)
         self.main_receive_thread.start()
     
@@ -83,36 +102,54 @@ class Machine:
         self.connections += connections
 
     def send_message(self, msg: str = "", address: tuple = ()) -> None:
+
+        """
+        Sends a message to another machine as desired
+        """
         
         self.send_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # self.send_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        self.send_socket.connect(address)
+        self.send_socket.connect(address) # Connect to other virtual machine
 
         self.send_socket.send(msg.encode())
         self.send_socket.close()
 
     def log_message(self, msg: str) -> None:
+        """
+        Logs a message to the log_file
+        """
 
+        # Check if log_file I/O is already closed
         if self.logging.closed:
             return
 
+        # System time
         current_time = time.time()
         formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
 
+        # Log Message
         complete_message = f"{formatted_time}/{self.local_clock}/{msg}"
         
         self.logging.write(complete_message + '\n')
         
 
     def generate_event(self) -> None:
-        
+        """
+        When the Machine queue is not empty, will generate a random event 
+        EVENTS: MACHINE_ONE, MACHINE_TWO, BROADCAST, INTERNAL_EVENT
+        Check EVENTS global dict at the top of the file
+        """
+
         msg = json.dumps({"sender" : f"process_{self.pid}",
                    "local_time" : self.local_clock,
                 })
 
+        # Change this to change probality of an internal event
+        # Generates a random int in the range of EVENT_SIZE
         EVENT_SIZE = 10
         event = random.randint(1, EVENT_SIZE)
         self_log = ""
+
         if event == EVENTS["MACHINE_ONE"]:
             self_log = f"Sent to machine_{event}"
             self.send_message(msg=msg, address=self.connections[event-1])
@@ -128,6 +165,7 @@ class Machine:
 
         else:
             self_log = "Internal event"
+            # The internal event time can be modified
             time.sleep(.1)
         
         self.log_message(self_log)
@@ -135,7 +173,9 @@ class Machine:
             
             
     def main(self) -> None:
-
+        """
+        Driver function that either receives a message or generates an event
+        """
     
         while not self.main_has_ended:
 
@@ -143,6 +183,9 @@ class Machine:
 
                 msg = json.loads(self.queue.pop(0))
                 msg_time = msg['local_time']
+                # Update logical clock based on logical clock of other Machine messages
+                # This is to prevent misordering of processes running on slower virtual machines
+                # Slower machine will show clock drift
                 self.local_clock = max(self.local_clock, msg_time) + 1
 
                 # Format receiving a message
@@ -157,6 +200,9 @@ class Machine:
 
 
     def shutdown(self) -> None:
+        """
+        CLose sockets, log_file I/O and end thread processes
+        """
         
         self.receive_socket.close()
         self.main_has_ended = True
