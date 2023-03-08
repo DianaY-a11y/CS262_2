@@ -5,8 +5,11 @@ import socket
 import time
 import threading
 
+# directory of the currently executing script
 current_dir = os.path.dirname(os.path.abspath(__file__))
+# parent directory
 parent_dir = os.path.join(current_dir, '..')
+# add parent directory to sys.path
 sys.path.append(parent_dir)
 
 from process import Machine
@@ -19,6 +22,10 @@ class MachineTest(unittest.TestCase):
     PORT = 8000
 
     def receive_messages(self) -> None:
+        """
+        A function that receives messages on a socket and appends them to a queue concurrently until receive_has_ended is True.
+        
+        """
 
         while not self.receive_has_ended:
             try:
@@ -29,6 +36,11 @@ class MachineTest(unittest.TestCase):
                 pass
 
     def setUp(self) -> None:
+        """
+        A function that sets up the environment, i.e. required variables and objects for the test. 
+        It creates instances of Machine class, sets up a socket to receive messages, and starts a thread for receiving messages concurrently.
+        """
+       
         self.log_file_one = 'machine_one_test.log'
         self.log_file_two = 'machine_two_test.log'
         self.buffer = 1
@@ -50,6 +62,12 @@ class MachineTest(unittest.TestCase):
         MachineTest.PORT += 1
 
     def tearDown(self) -> None:
+        """
+        A function that cleans up after the tests have been run.
+
+        It deletes the log files created during the tests, stops the thread that receives messages, and shuts
+        down the instances of the Machine class.
+        """
         if os.path.exists(self.machine_one.log_file):
             os.remove(self.machine_one.log_file)
         
@@ -66,6 +84,12 @@ class MachineTest(unittest.TestCase):
         
 
     def test_connect_machines(self) -> None:
+        """
+        A test function that checks if the machines can connect to each other.
+
+        This function checks if the machines can establish a connection to each other by calling the connect_machines()
+        method of the Machine class and checking if the connections are established.
+        """
         self.machine_one.connect_machines([(self.machine_two.host, self.machine_two.port)])
         self.machine_two.connect_machines([(self.machine_one.host, self.machine_one.port)])
 
@@ -73,6 +97,14 @@ class MachineTest(unittest.TestCase):
         self.assertIn((self.machine_two.host, self.machine_two.port), self.machine_one.connections)
     
     def test_log_message(self) -> None:
+        
+        """
+        This function that checks if the log messages are written to the log file.
+
+        It checks if the messages logged by the machine are written to the log file by calling the
+        log_message() method of the Machine class and reading the contents of the log file
+        
+        """
         
         test_message = "Test Log Message!"
         self.machine_one.log_message(test_message)
@@ -83,6 +115,12 @@ class MachineTest(unittest.TestCase):
         self.assertIn(test_message, log_content)
 
     def test_receive_messages(self) -> None:
+        
+        """
+        Test the receive_messages method of a machine object.
+        Sends a message to the machine_one object and verifies that the message is received 
+        and added to the machine_one queue correctly.
+        """
         
         rec_message = "Received!"
         test_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -97,6 +135,13 @@ class MachineTest(unittest.TestCase):
         self.assertEqual(rec_message, self.machine_one.queue.pop(0))
 
     def test_send_messages(self) -> None:
+        
+        """
+        Tests the send_message method of the Machine class by sending a message to a connected machine and 
+        checking if the message is sent correctly and added to the target machine's message queue.
+
+         """
+        
         # self.machine_one.connect_machines([(self.machine_two.host, self.machine_two.port)])
         # self.machine_two.connect_machines([(self.machine_one.host, self.machine_one.port)])
 
