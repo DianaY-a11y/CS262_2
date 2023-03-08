@@ -1,0 +1,306 @@
+1, 0.16666666666666666
+2023-03-08 01:20:43/1/Internal event
+2023-03-08 01:20:43/2/Internal event
+2023-03-08 01:20:43/3/Internal event
+2023-03-08 01:20:44/4/Internal event
+2023-03-08 01:20:44/5/Broadcast to all machines
+2023-03-08 01:20:44/6/Sent to machine_2
+2023-03-08 01:20:44/7/Internal event
+2023-03-08 01:20:44/8/Sent to machine_2
+2023-03-08 01:20:45/9/Sent to machine_2
+2023-03-08 01:20:45/10/Internal event
+2023-03-08 01:20:45/11/Internal event
+2023-03-08 01:20:45/12/Sent to machine_1
+2023-03-08 01:20:46/13/Internal event
+2023-03-08 01:20:46/14/Internal event
+2023-03-08 01:20:46/16/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:46/17/Internal event
+2023-03-08 01:20:47/18/Sent to machine_1
+2023-03-08 01:20:47/19/Internal event
+2023-03-08 01:20:47/20/Internal event
+2023-03-08 01:20:47/21/RecFrom:process_3/QueueSize:2
+2023-03-08 01:20:47/22/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:48/23/Internal event
+2023-03-08 01:20:48/24/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:48/25/Internal event
+2023-03-08 01:20:48/26/Broadcast to all machines
+2023-03-08 01:20:49/27/Internal event
+2023-03-08 01:20:49/28/Sent to machine_1
+2023-03-08 01:20:49/29/Broadcast to all machines
+2023-03-08 01:20:49/30/Internal event
+2023-03-08 01:20:49/31/Internal event
+2023-03-08 01:20:50/33/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:50/34/Internal event
+2023-03-08 01:20:50/35/Internal event
+2023-03-08 01:20:50/36/Internal event
+2023-03-08 01:20:51/37/Sent to machine_1
+2023-03-08 01:20:51/38/Internal event
+2023-03-08 01:20:51/39/Internal event
+2023-03-08 01:20:51/40/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:52/41/Internal event
+2023-03-08 01:20:52/42/Internal event
+2023-03-08 01:20:52/43/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:52/44/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:52/45/Sent to machine_1
+2023-03-08 01:20:53/46/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:53/47/Broadcast to all machines
+2023-03-08 01:20:53/48/Internal event
+2023-03-08 01:20:53/49/Internal event
+2023-03-08 01:20:54/50/Internal event
+2023-03-08 01:20:54/51/Broadcast to all machines
+2023-03-08 01:20:54/52/Internal event
+2023-03-08 01:20:54/53/Internal event
+2023-03-08 01:20:55/54/Internal event
+2023-03-08 01:20:55/55/Internal event
+2023-03-08 01:20:55/56/Internal event
+2023-03-08 01:20:55/57/Broadcast to all machines
+2023-03-08 01:20:55/58/Sent to machine_1
+2023-03-08 01:20:56/59/Internal event
+2023-03-08 01:20:56/60/Internal event
+2023-03-08 01:20:56/61/Sent to machine_2
+2023-03-08 01:20:56/62/Internal event
+2023-03-08 01:20:57/63/Internal event
+2023-03-08 01:20:57/64/Internal event
+2023-03-08 01:20:57/65/Internal event
+2023-03-08 01:20:58/66/Internal event
+2023-03-08 01:20:58/67/Internal event
+2023-03-08 01:20:58/68/Internal event
+2023-03-08 01:20:58/69/Internal event
+2023-03-08 01:20:59/70/Internal event
+2023-03-08 01:20:59/71/Internal event
+2023-03-08 01:20:59/73/RecFrom:process_3/QueueSize:1
+2023-03-08 01:20:59/74/Internal event
+2023-03-08 01:20:59/75/Sent to machine_2
+2023-03-08 01:21:00/76/Internal event
+2023-03-08 01:21:00/77/Sent to machine_1
+2023-03-08 01:21:00/78/Internal event
+2023-03-08 01:21:00/79/Broadcast to all machines
+2023-03-08 01:21:01/80/Broadcast to all machines
+2023-03-08 01:21:01/81/Internal event
+2023-03-08 01:21:01/82/Internal event
+2023-03-08 01:21:01/83/Internal event
+2023-03-08 01:21:02/85/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:02/86/Sent to machine_2
+2023-03-08 01:21:02/87/Sent to machine_2
+2023-03-08 01:21:02/88/Internal event
+2023-03-08 01:21:02/89/Sent to machine_1
+2023-03-08 01:21:03/90/Internal event
+2023-03-08 01:21:03/91/Broadcast to all machines
+2023-03-08 01:21:03/92/Internal event
+2023-03-08 01:21:03/94/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:03/95/Internal event
+2023-03-08 01:21:04/96/Broadcast to all machines
+2023-03-08 01:21:04/97/Broadcast to all machines
+2023-03-08 01:21:04/98/Internal event
+2023-03-08 01:21:04/99/Internal event
+2023-03-08 01:21:05/100/Internal event
+2023-03-08 01:21:05/101/Internal event
+2023-03-08 01:21:05/102/Internal event
+2023-03-08 01:21:05/103/Broadcast to all machines
+2023-03-08 01:21:06/104/Internal event
+2023-03-08 01:21:06/105/Internal event
+2023-03-08 01:21:06/106/Internal event
+2023-03-08 01:21:06/107/Sent to machine_1
+2023-03-08 01:21:07/108/Internal event
+2023-03-08 01:21:07/109/Internal event
+2023-03-08 01:21:07/110/Internal event
+2023-03-08 01:21:07/111/Sent to machine_2
+2023-03-08 01:21:07/112/Sent to machine_1
+2023-03-08 01:21:08/113/Internal event
+2023-03-08 01:21:08/114/Internal event
+2023-03-08 01:21:08/115/Internal event
+2023-03-08 01:21:09/116/Internal event
+2023-03-08 01:21:09/117/Broadcast to all machines
+2023-03-08 01:21:09/118/Internal event
+2023-03-08 01:21:09/119/Internal event
+2023-03-08 01:21:10/120/Internal event
+2023-03-08 01:21:10/124/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:10/125/Sent to machine_2
+2023-03-08 01:21:10/126/Sent to machine_2
+2023-03-08 01:21:10/127/Internal event
+2023-03-08 01:21:11/129/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:11/130/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:11/131/Internal event
+2023-03-08 01:21:11/132/Internal event
+2023-03-08 01:21:11/133/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:12/134/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:12/135/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:12/136/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:12/137/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:12/138/Internal event
+2023-03-08 01:21:13/139/Sent to machine_1
+2023-03-08 01:21:13/140/Internal event
+2023-03-08 01:21:13/141/Sent to machine_2
+2023-03-08 01:21:13/142/Internal event
+2023-03-08 01:21:14/143/Internal event
+2023-03-08 01:21:14/144/Internal event
+2023-03-08 01:21:14/145/Internal event
+2023-03-08 01:21:14/146/Sent to machine_2
+2023-03-08 01:21:15/147/Internal event
+2023-03-08 01:21:15/148/Internal event
+2023-03-08 01:21:15/149/Internal event
+2023-03-08 01:21:15/150/Internal event
+2023-03-08 01:21:16/151/Internal event
+2023-03-08 01:21:16/152/Internal event
+2023-03-08 01:21:16/153/Internal event
+2023-03-08 01:21:16/154/Sent to machine_1
+2023-03-08 01:21:16/155/Sent to machine_1
+2023-03-08 01:21:17/156/Internal event
+2023-03-08 01:21:17/157/Internal event
+2023-03-08 01:21:17/158/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:17/159/Internal event
+2023-03-08 01:21:18/160/Internal event
+2023-03-08 01:21:18/161/Internal event
+2023-03-08 01:21:18/163/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:18/164/Internal event
+2023-03-08 01:21:19/165/Sent to machine_1
+2023-03-08 01:21:19/166/Internal event
+2023-03-08 01:21:19/167/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:19/168/Internal event
+2023-03-08 01:21:20/169/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:20/170/Internal event
+2023-03-08 01:21:20/171/Internal event
+2023-03-08 01:21:20/172/Sent to machine_2
+2023-03-08 01:21:20/173/Internal event
+2023-03-08 01:21:21/174/Internal event
+2023-03-08 01:21:21/175/Broadcast to all machines
+2023-03-08 01:21:21/176/Internal event
+2023-03-08 01:21:21/178/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:22/179/Internal event
+2023-03-08 01:21:22/180/Internal event
+2023-03-08 01:21:22/181/Internal event
+2023-03-08 01:21:22/182/Internal event
+2023-03-08 01:21:23/183/Internal event
+2023-03-08 01:21:23/184/Internal event
+2023-03-08 01:21:23/185/Broadcast to all machines
+2023-03-08 01:21:23/186/Internal event
+2023-03-08 01:21:24/187/Broadcast to all machines
+2023-03-08 01:21:24/188/Internal event
+2023-03-08 01:21:24/189/Internal event
+2023-03-08 01:21:24/190/Internal event
+2023-03-08 01:21:25/191/Internal event
+2023-03-08 01:21:25/192/Internal event
+2023-03-08 01:21:25/193/Internal event
+2023-03-08 01:21:25/195/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:26/196/Internal event
+2023-03-08 01:21:26/197/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:26/198/Internal event
+2023-03-08 01:21:26/199/Internal event
+2023-03-08 01:21:27/200/Internal event
+2023-03-08 01:21:27/201/Internal event
+2023-03-08 01:21:27/202/Internal event
+2023-03-08 01:21:27/203/Internal event
+2023-03-08 01:21:28/204/Internal event
+2023-03-08 01:21:28/205/Internal event
+2023-03-08 01:21:28/206/Internal event
+2023-03-08 01:21:29/207/Internal event
+2023-03-08 01:21:29/208/Internal event
+2023-03-08 01:21:29/209/Internal event
+2023-03-08 01:21:29/212/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:29/213/Broadcast to all machines
+2023-03-08 01:21:30/214/Broadcast to all machines
+2023-03-08 01:21:30/215/Sent to machine_2
+2023-03-08 01:21:30/216/Internal event
+2023-03-08 01:21:30/217/Internal event
+2023-03-08 01:21:31/218/Internal event
+2023-03-08 01:21:31/219/Internal event
+2023-03-08 01:21:31/221/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:31/222/Internal event
+2023-03-08 01:21:32/223/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:32/224/Internal event
+2023-03-08 01:21:32/225/Internal event
+2023-03-08 01:21:32/226/Internal event
+2023-03-08 01:21:33/227/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:33/228/Internal event
+2023-03-08 01:21:33/229/Internal event
+2023-03-08 01:21:33/230/Internal event
+2023-03-08 01:21:34/231/Internal event
+2023-03-08 01:21:34/232/Internal event
+2023-03-08 01:21:34/233/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:34/235/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:34/236/Internal event
+2023-03-08 01:21:35/237/Sent to machine_1
+2023-03-08 01:21:35/238/Sent to machine_1
+2023-03-08 01:21:35/239/Sent to machine_2
+2023-03-08 01:21:35/240/Internal event
+2023-03-08 01:21:35/241/Sent to machine_2
+2023-03-08 01:21:36/242/Internal event
+2023-03-08 01:21:36/243/Broadcast to all machines
+2023-03-08 01:21:36/244/Internal event
+2023-03-08 01:21:36/245/Sent to machine_2
+2023-03-08 01:21:37/246/Internal event
+2023-03-08 01:21:37/247/Internal event
+2023-03-08 01:21:37/248/Internal event
+2023-03-08 01:21:37/249/Internal event
+2023-03-08 01:21:38/250/Internal event
+2023-03-08 01:21:38/251/Internal event
+2023-03-08 01:21:38/252/Internal event
+2023-03-08 01:21:39/253/Internal event
+2023-03-08 01:21:39/254/Internal event
+2023-03-08 01:21:39/255/Internal event
+2023-03-08 01:21:39/256/Internal event
+2023-03-08 01:21:39/258/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:40/259/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:40/260/Internal event
+2023-03-08 01:21:40/262/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:40/263/Internal event
+2023-03-08 01:21:41/264/Internal event
+2023-03-08 01:21:41/265/Internal event
+2023-03-08 01:21:41/266/Internal event
+2023-03-08 01:21:41/267/Internal event
+2023-03-08 01:21:42/268/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:42/269/Internal event
+2023-03-08 01:21:42/270/Internal event
+2023-03-08 01:21:42/271/Internal event
+2023-03-08 01:21:43/272/Sent to machine_2
+2023-03-08 01:21:43/273/Internal event
+2023-03-08 01:21:43/275/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:43/276/Broadcast to all machines
+2023-03-08 01:21:44/277/Internal event
+2023-03-08 01:21:44/278/Internal event
+2023-03-08 01:21:44/279/Internal event
+2023-03-08 01:21:44/280/Internal event
+2023-03-08 01:21:45/281/Internal event
+2023-03-08 01:21:45/282/Internal event
+2023-03-08 01:21:45/283/Internal event
+2023-03-08 01:21:45/284/Sent to machine_1
+2023-03-08 01:21:45/285/Broadcast to all machines
+2023-03-08 01:21:46/286/Sent to machine_1
+2023-03-08 01:21:46/287/Internal event
+2023-03-08 01:21:46/288/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:46/289/Sent to machine_1
+2023-03-08 01:21:46/290/Sent to machine_1
+2023-03-08 01:21:47/291/Internal event
+2023-03-08 01:21:47/292/Internal event
+2023-03-08 01:21:47/293/Broadcast to all machines
+2023-03-08 01:21:47/294/Internal event
+2023-03-08 01:21:48/295/Internal event
+2023-03-08 01:21:48/296/Sent to machine_1
+2023-03-08 01:21:48/298/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:48/299/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:48/300/Internal event
+2023-03-08 01:21:49/301/Sent to machine_2
+2023-03-08 01:21:49/302/Internal event
+2023-03-08 01:21:49/303/Internal event
+2023-03-08 01:21:49/304/Internal event
+2023-03-08 01:21:50/305/Sent to machine_1
+2023-03-08 01:21:50/306/Internal event
+2023-03-08 01:21:50/307/Internal event
+2023-03-08 01:21:50/308/Sent to machine_2
+2023-03-08 01:21:51/309/Sent to machine_2
+2023-03-08 01:21:51/310/Internal event
+2023-03-08 01:21:51/311/Internal event
+2023-03-08 01:21:51/312/Internal event
+2023-03-08 01:21:52/313/Internal event
+2023-03-08 01:21:52/314/RecFrom:process_3/QueueSize:2
+2023-03-08 01:21:52/315/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:52/316/Internal event
+2023-03-08 01:21:52/317/Internal event
+2023-03-08 01:21:53/318/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:53/319/Sent to machine_1
+2023-03-08 01:21:53/320/Internal event
+2023-03-08 01:21:53/321/Internal event
+2023-03-08 01:21:54/322/Internal event
+2023-03-08 01:21:54/323/RecFrom:process_3/QueueSize:1
+2023-03-08 01:21:54/324/Internal event
+2023-03-08 01:21:54/325/Internal event
