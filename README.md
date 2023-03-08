@@ -2,14 +2,9 @@
 
 ## Instructions: 
 
-1.	Open three separate terminals, and type the following lines in each one: 
-
-- **python3 run.py 0**
-- **python3 run.py 1**
-- **python3 run.py 2**
-
-2.	When prompted, click enter to run the files 
-3.	Open the log files folder to see the results (can be run as long as needed)
+1.	Open ONE terminal only
+2.	Run python3 run.py
+3.	This creates three virtual machines in the file itself and doesn't need user based parameters to get access
 
 - **[id] refers to the machine id number**
 - **[speed] refers to number of operations able to be executed in a minute**
@@ -35,7 +30,7 @@ Experiment 3 has the default setting for the clock randomization but we removed 
 
 ## Design Choices:
 
-We have set the code up in a way where a given user can provide certain inputs that runs on different experiments (see the instructions side for what the parameters look like). We have utilized the creation of two sockets, one for receiving messages in one thread and the other for just sending.  By setting up this wire protocol and through a multi-threaded system, this ensures that there is no limbo zone where all the machines are waiting for a onnection without even starting the connection in the first place. Each new connection will also be started in a new thread and receive mssages there for the same reason. 
+We have set the code up in a way where a given user can provide certain inputs that runs on different experiments (see the initialization side for what the parameters look like). We have utilized the creation of two sockets, one for receiving messages in one thread and the other for just sending.  By setting up this wire protocol and through a multi-threaded system, this ensures that there is no limbo zone where all the machines are waiting for a onnection without even starting the connection in the first place. Each new connection will also be started in a new thread and receive mssages there for the same reason. 
 
 
 
