@@ -1,6 +1,6 @@
-#CS262 Project 2
+# CS262 Project 2
 
-##Instructions: 
+## Instructions: 
 
 1.	Open three separate terminals, and type the following lines in each one: 
   a.	Python3 run.py 0
@@ -13,7 +13,7 @@
   c.	[logical clock time] – [system time] refers to the parameters specified in the investigation 
 4.	Shut down the program when finished
 
-##Documentation: 
+## Documentation: 
 
 The code first initializes multiple virtual machines and will each have a logical clock at a clock rate determined randomly. For the clock ticks, it will pick a random number from 1 to 6 for each real world second and updates the logical clock accordingly. The initialization also involves connecting with other virtual machines, open files for the log, listen to other sockets, and have a network queue for the incoming messages. 
 
@@ -21,7 +21,7 @@ Our code will also start off with checking if there is a message in the queue. I
 
 Finally, we will run the scale model at least five teams for at least one minute each and look at the different size of jumps in the logical clocks compared to the system time and how this is impacted by the different timings (by looking at message queues and logical clock gaps). The experimentation outline is mentioned below as well as the findings we have identified.  
 
-##Experimentation Scope:
+## Experimentation Scope:
 
 Experiment 1 has 
 
