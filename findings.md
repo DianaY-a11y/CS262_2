@@ -6,6 +6,9 @@ Run the scale model at least 5 times for at least one minute each time. Examine 
 <img width="1194" alt="Screen Shot 2023-03-08 at 1 20 11 AM" src="https://user-images.githubusercontent.com/80307545/223648335-9a901d47-60f3-4264-a398-59d3361fb84a.png">
 <img width="1211" alt="Screen Shot 2023-03-08 at 1 16 05 AM" src="https://user-images.githubusercontent.com/80307545/223648336-92363e9c-e285-4bb3-9312-288b7b8ceb31.png">
 <img width="1188" alt="Screen Shot 2023-03-08 at 1 12 28 AM" src="https://user-images.githubusercontent.com/80307545/223648337-c2d939f8-e009-4d8e-b76b-52b6db9e267a.png">
+<img width="986" alt="Screen Shot 2023-03-08 at 11 17 20 AM" src="https://user-images.githubusercontent.com/80307545/223806921-09860aeb-4120-4c81-a0a5-06eed94f5d50.png">
+<img width="1055" alt="Screen Shot 2023-03-08 at 11 14 47 AM" src="https://user-images.githubusercontent.com/80307545/223806922-59b5780a-6627-46f3-9338-7c94d758963a.png">
+<img width="830" alt="Screen Shot 2023-03-08 at 11 13 27 AM" src="https://user-images.githubusercontent.com/80307545/223806923-3ada2d95-c9ba-4b45-add1-63e2e373dc77.png">
 
 
 In this experiment, we randomized the clock of each machine and logged the internal clock rate along with the actual time progression (in seconds) of 3 machines. We repeated this experiment a total of 5 times.
@@ -38,10 +41,13 @@ Here, as expected, all machines have a similar drift in value and all converge a
 ### Message Queue Length
 
 This reaffirms our previous understanding of machines speeds and message queues lengths. These machines operating at an identical cycle all maintain around 1-2. Since these machines operate at identical times, they generally have the same message queue length.
+<img width="1001" alt="Screen Shot 2023-03-08 at 1 46 34 PM" src="https://user-images.githubusercontent.com/80307545/223806632-3747ca20-5c0d-4028-8b90-9fe773fb0e4c.png">
 
-## Experiment 3:
+Note, the above image is labelled incorrectly. The clock rates are identical across the board. 
+
+## Experiment 3: No Internal Events
 <img width="1483" alt="Screen Shot 2023-03-08 at 1 56 19 AM" src="https://user-images.githubusercontent.com/80307545/223648276-e0a0c3e2-34cc-4e0c-9ea2-0bd3b88dd368.png">
- No Internal Events
+
 
 For this experiment, we ran 3 machines 5 times. Previously, we used a randomized a number between (1,10) and if the value was not 1,2, or 3, the machine would "treat the cycle as an internal event; update the local logical clock, and log the internal event, the system time, and the logical clock value". For this experiment, we removed internal events. Therefore, if previously there was a 6/10 probability of performing an internal event, now there is 0.
 
@@ -56,3 +62,6 @@ The drift value here increased which makes sense because the faster machine "gai
 ### Message Queue Length
 
 The message queue length across the board increased dramatically as some machines held a mesasge queue of nearly 100 messages. Without internal events, machines operating at slower times are then receiving more and more messages from faster machines than in a situation where there were internal events.
+<img width="1395" alt="Screen Shot 2023-03-08 at 1 48 05 PM" src="https://user-images.githubusercontent.com/80307545/223806877-a2799760-89af-4f2f-9d6b-2a318d3a493e.png">
+
+Note, the label in this image are incorrect. The clock rates are machine_1 = 2, machine_2 = 4, machine_3 = 4.
