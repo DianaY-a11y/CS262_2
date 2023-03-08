@@ -6,6 +6,8 @@
 2.	Run python3 run.py
 3.	This creates three virtual machines in the file itself and doesn't need user based parameters to get access
 
+Interpreting logs is as shown below
+
 - **[id] refers to the machine id number**
 - **[speed] refers to number of operations able to be executed in a minute**
 - **[logical clock time] – [system time] refers to the parameters specified in the investigation**
