@@ -4,16 +4,16 @@
 
 1.	Open three separate terminals, and type the following lines in each one: 
 
-  a. python3 run.py 0
-  b. python3 run.py 1
-  b. python3 run.py 2
+- ** python3 run.py 0
+- ** python3 run.py 1
+- ** python3 run.py 2
 
 2.	When prompted, click enter to run the files 
 3.	Open the log files folder to see the results (can be run as long as needed)
 
-  a. [id] refers to the machine id number
-  b. [speed] refers to number of operations able to be executed in a minute
-  c. [logical clock time] – [system time] refers to the parameters specified in the investigation 
+- ** [id] refers to the machine id number
+- ** [speed] refers to number of operations able to be executed in a minute
+- ** [logical clock time] – [system time] refers to the parameters specified in the investigation 
 
 4.	Shut down the program when finished
 
